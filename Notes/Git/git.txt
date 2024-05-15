@@ -1,0 +1,18 @@
+Terminal : platform from where we can talk to compiler.
+
+Cmd's :
+- pwd : current path (present working directory)
+- ls : lists all files in current folder
+- Clear : clean the terminal
+- ls -all : detailed list of all files 
+- Cd : change directory/ folder 
+- Cd .. : come out of directory/ folder
+- Cd folder1/folder2 : navigates inside folder1 then inside folder2 ( 2 level navigation )
+- mkdir folderName : make folder
+- rmdir folderName : deletes folder
+- rm -r file/folder : deletes specific file/ folder
+- touch fileName : create file
+- cat fileName.exe :  read file
+- cat > fileName.exe :  edit / replace file [ add content then ctrl + D+D ]
+- cat >> fileName.exe :  adds content in file [ add content then ctrl + D+D ]
+- rm fileName.exe :  delete file
