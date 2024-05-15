@@ -16,3 +16,4 @@ Cmd's :
 - cat > fileName.exe :  edit / replace file [ add content then ctrl + D+D ]
 - cat >> fileName.exe :  adds content in file [ add content then ctrl + D+D ]
 - rm fileName.exe :  delete file
+- mv source/file.exe destination : moving file from source to destination
