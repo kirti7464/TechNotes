@@ -1,0 +1,52 @@
+Time and Space Complexity: 
+
+Time complexity: 
+It is not the time taken by a machine to run a certain piece of code. As time taken by a machine to run a code depends on machine configuration and can be different for every machine.
+Rate at which time taken increases with respect to input size.
+It is measured in Big Oh [O()]
+
+In simple words, it is the number of steps in a piece of code.
+Example :
+ for(let I=0;i<2;I++){
+cout<<I;
+}
+
+Time complexity for this code = O(7) 
+Rules:
+- Always take worst case scenario
+- Avoid constant
+- Avoid lower values
+
+for(let I=0;i<n;I++){
+cout<<I;
+}
+
+Acc to rules 1, it’s TC will be 
+
+BEST case scenario: omega [ Ω() ]
+Lower bound
+Minimum time taken by code
+
+Average case scenario: Theta [ 0() ]
+Av. Complexity
+Median time taken by code - (best+worst)/2
+
+Worst case scenario: Big Oh [ O() ]
+Upper bound
+Maximum time taken by code
+
+
+Space complexity:
+
+It is not the space taken by a machine to run a certain piece of code. As space taken by a machine to run a code depends on machine configuration and can be different for every machine.
+Auxiliary space + input space
+[auxiliary - space to solve the problem, input - space to store input]
+Eg,
+Let a, b;
+c=a+b;
+
+C is aux and a, b is input space
+SC = O(3), number of variables.
+
+
+
